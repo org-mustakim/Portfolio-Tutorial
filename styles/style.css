@@ -23,18 +23,17 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
-
-
-
-
-
 
 
 /* main style */
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
 }
 nav{
     width: 71%;
@@ -52,4 +51,47 @@ nav .menue{
 nav ul a{
     color: #474747;
     text-decoration: none;
+}
+/* .banner-content{
+    margin-top: 136px;
+} */
+.banner-content h2{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600px;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-weight: 900px;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 5px;
+}
+.banner-content p{
+    font-size: 18px;
+    width: 585px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.banner-content div{
+    display: flex;
+    gap: 30px;
+}
+#hero{
+    margin-top: 46px;
+    margin-left: 230px;
+    margin-right: 38px;
+    /* border:1px solid #FD6E0A; */
+    width: 1332px;
+    height: 676px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-image{
+    display: flex;
+    justify-content: space-between;
+    width: 584;
+    height: 676;
+    vertical-align: middle;
 }
