@@ -223,3 +223,75 @@ nav ul a{
     margin-top: 50px;
     margin-bottom: 113px;
 }
+#footer{
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 1px solid red; */
+    width: 1600px;
+    height: 780px;
+}
+#socials{
+    /* border: 1px solid salmon; */
+}
+#socials h3{
+    margin-left: 230px;
+    margin-right: 425px;
+    font-size: 35px;
+    font-weight: 900px;
+    margin-top: 130px;
+
+}
+#socials p{
+    margin-left: 230px;
+    margin-right: 117.5px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#socials .icons{
+    margin-left: 230px;
+    margin-right: 117.5px;
+}
+#social-icons{
+    margin-right: 24px;
+    width: 24px;
+    height: 24px;
+}
+#form h3{
+    font-size: 35px;
+    font-weight: 900px;
+    margin-top: 130px;
+}
+#message{
+    border:  none;
+    display: flex;
+    width: 461px;
+    height: 180px;
+    padding-top:18px ;
+    padding-bottom: 134px;
+    padding-left: 30px;
+    margin-top: 24px;
+}
+#namail{
+    border:  none;
+    display: flex;
+    width: 461px;
+    height: 64px;
+    padding-top:18px ;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    margin-top: 24px;
+}
+#submit{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    width: 150px;
+    height: 64px;
+    cursor: pointer;
+}
