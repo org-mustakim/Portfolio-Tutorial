@@ -93,5 +93,133 @@ nav ul a{
     justify-content: space-between;
     width: 584;
     height: 676;
-    vertical-align: middle;
+    /* vertical-align: middle; */
+}
+#about{
+    /* border: 1px solid red; */
+    /* height: 288px;
+    width: 827px; */
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    margin: 130px 230px;
+}
+.section-heading h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900px;
+}
+.section-heading p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.about-info{
+    display: flex;
+    gap: 47.5px;
+}
+.info-card{
+    text-align: center;
+    width: 784.5px;
+    margin-top: 30px;
+}
+.info-card p{
+    font-size: 20px;
+}
+.info-card h4{
+    font-weight: 900px;
+    font-size: 20px;
+}
+#what-i-do div h2{
+    font-weight: 900px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+#what-i-do div p{
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 31px;
+    text-align: center;
+}
+.cards-container{
+    margin-top: 50px;
+    margin-left: 230px;
+    width: 1140px;
+    height: 377px;
+    display: flex;
+    gap: 24px;
+}
+.cards{
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.062);
+    /* border: 1px solid red */
+}
+.cards h3{
+    font-weight: 900px;
+    font-size: 20px;
+}
+.cards p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.cards img{
+    justify-items: left;
+    padding-bottom: 30px;
+} 
+#resume .main-resume-heading h2{
+    font-size: 35px;
+    font-weight: 900px;
+    margin-top: 130px;
+    margin-bottom: 114px;
+    text-align: center;
+}
+.resume-division-heading{
+    font-size: 30px;
+    font-weight: 900px;
+    /* border: 1px solid red; */
+    gap: 377px;
+    width: 1093px;
+    display: flex;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+/* #head3{
+    margin-left: ;
+} */
+.resume-content{
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    width: 1093px;
+    display: flex;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+.ma h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+} 
+.me h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.pa1{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+
+}
+.pa2{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.resume-download{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
 }
